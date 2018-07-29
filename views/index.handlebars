@@ -1,0 +1,31 @@
+
+
+<ul>
+    {{#each burgers}}
+    {{#if devoured}}
+    <li>
+        <button class = "eatenStatus" data-id = "{{id}}" data-newstatus="{{devour}}">
+            {{#if devour}}Devour!{{else}}Eaten!{{/if}}
+        </button>
+    </li>
+    {{/if}}
+    {{/each}}
+    
+    </ul>
+
+<ul>
+    {{#each burgers}}
+    {{#unless devoured}}
+    <li>
+        <button class = "status" data-id = "{{id}}" data-newstatus="{{eaten}}">
+            {{#if eaten}}Eaten!{{else}}Devour!{{/if}}
+        </button>
+    </li>
+    {{/unless}}
+    {{/each}}
+</ul> 
+
+<script>
+
+
+
