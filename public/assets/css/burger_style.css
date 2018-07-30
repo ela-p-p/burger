@@ -1,0 +1,38 @@
+body {
+    font-family: cursive;
+    font-weight: bold;
+    background: orange
+}
+
+ol {
+    margin-left: 20em
+}
+
+ul {  
+    margin-top: 5em;  
+    opacity: 1;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 45em;
+    margin-top: -2em       
+}
+
+.card {
+    margin-left: 35em;
+}
+  
+
+.btn {
+    font-family: cursive;
+    background: rgb(86, 86, 219)
+}
+
+.status {
+    font-family: cursive;
+    background: rgb(86, 86, 219)
+}
+
+.create-form {
+    margin-left: 35em;
+    
+}
